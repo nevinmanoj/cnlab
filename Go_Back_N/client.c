@@ -4,6 +4,7 @@
 #include <netdb.h>
 #include <string.h>
 #include <fcntl.h>
+#include <unistd.h>
 
 #define h_addr h_addr_list[0] /* for backward compatibility */
 
